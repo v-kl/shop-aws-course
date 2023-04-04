@@ -1,2 +1,2 @@
-s3: http://vkl02002awscourse.s3-website-us-east-1.amazonaws.com
-cloudfront: d1uhc79mh639w1.cloudfront.net
+S3 static website: http://vkl02002awscourse1223.s3-website-eu-west-1.amazonaws.com/
+CloudFront: http://d1gueo4o7ue67b.cloudfront.net/ (redirects to https)
