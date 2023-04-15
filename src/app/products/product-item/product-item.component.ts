@@ -29,6 +29,10 @@ export class ProductItemComponent implements OnInit {
     return this.product.id;
   }
 
+  getRandomNumber() {
+    return Math.floor(Math.random() * 10);
+  }
+
   ngOnInit(): void {
     this.countInCart$ = this.cartService.cart$.pipe(
       map((cart) => {
